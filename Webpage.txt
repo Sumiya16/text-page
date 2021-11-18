@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1 style="text-align:left;">Tadipatri</h1>
+<h2 style="text-align:right;">Mooga</h2>
+<h3 style="text-align:center;">Sumiya</h3>
+<h4><marquee>Tadipatri Mooga Sumiya</marquee></h4>
+<h5>Conzura Soft Solutions</h5>
+<center>
+<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="Girl in a jacket" width="500" height="600">
+<h6>
+<style>
+@keyframes blinking {
+  0% { color: #ff3d50; }
+  /* YOU CAN ADD MORE COLORS IN THE KEYFRAMES IF YOU WANT
+  50% { color: #55d66b; }
+  */
+  100% { color: #222291; }
+}
+#demo{
+  font-size: 1.3em;
+  font-weight: bold;
+  /* NAME | TIME | ITERATION */
+  animation: blinking 1s infinite;
+}
+</style>
+ 
+<p id="demo">
+  TADIPATRI MOOGA SUMIYA
+</p>
+    </h6>
+<h7>
+
+<div class="blink-bg">ASE</div>
+<style>
+	.blink-bg{
+		color: #fff;
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ background-color: #10c018;}
+		25%		{ background-color: #1056c0;}
+		50%		{ background-color: #ef0a1a;}
+		75%		{ background-color: #254878;}
+		100%	        { background-color: #04a1d5;}
+	}
+</style>
+</h7>
+
+</body>
+</html>
